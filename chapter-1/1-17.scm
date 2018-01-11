@@ -6,10 +6,6 @@
     (/ n 2)
 )
 
-(define (multiply a b)
-    (fast-mult a b 0)
-)
-
 (define (even? n)
     (= (remainder n 2) 0)
 )
